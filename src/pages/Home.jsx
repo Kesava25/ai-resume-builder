@@ -140,7 +140,7 @@ Ensure the response is structured, clear, and easy to display in a React app.
             method: 'POST',
             headers: {
                 'content-type': 'application/json',
-                'X-goog-api-key': 'AIzaSyDXbcwI6BHMxcuF8NAuimI80dd0sLkmZ5Q'
+                'X-goog-api-key': '[]'
             },
             body: `{"contents":[{"parts":[{"text":"${prompt}"}]}]}`
         };
@@ -154,7 +154,7 @@ Ensure the response is structured, clear, and easy to display in a React app.
             console.error(error);
         }
     }
-    //AIzaSyDXbcwI6BHMxcuF8NAuimI80dd0sLkmZ5Q
+    //
     return (
         <div className="container-fluid min-vh-100 bg-light">
             {/* Header Section */}
